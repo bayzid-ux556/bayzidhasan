@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>bayzidhasan.com</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+    body {
+      background: #f3f3f3;
+    }
+    header {
+      background: #232f3e;
+      color: white;
+      padding: 15px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+    }
+    .search-bar input {
+      width: 300px;
+      padding: 8px;
+    }
+    nav a {
+      color: white;
+      margin-left: 20px;
+      text-decoration: none;
+    }
+    .products {
+      padding: 30px;
+      min-height: 200px; /* Keep some height so page doesn't look empty */
+    }
+    .footer {
+      background: #232f3e;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">bayzidhasan.com</div>
+  <div class="search-bar">
+    <input type="text" placeholder="Search products..." />
+  </div>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Deals</a>
+    <a href="#">Cart</a>
+    <a href="#">Login</a>
+  </nav>
+</header>
+
+<section class="products">
+  <!-- No products yet -->
+</section>
+
+<footer class="footer">
+  &copy; 2025 bayzidhasan.com. All rights reserved.
+</footer>
+
+</body>
+</html>
